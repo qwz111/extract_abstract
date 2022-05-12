@@ -1,3 +1,5 @@
+# 提取双栏论文摘要的方法
+
 #-*- encoding:utf-8 -*-
 from __future__ import print_function
 
