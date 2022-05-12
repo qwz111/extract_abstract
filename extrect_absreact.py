@@ -68,6 +68,7 @@ def MMR(doc_list, corpus, k=3):
         MMRScore = {}
         # select the first sentence of abstract
         if Summary_set == []:
+            # print(QDScore.items())
             selected = max(QDScore.items(), key=operator.itemgetter(1))[0]
             Summary_set.append(selected)
 
